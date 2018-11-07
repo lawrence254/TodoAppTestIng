@@ -38,7 +38,6 @@ public class MainActivityTest {
 
     @Test
     public void viewsAvailable(){
-//        onView(withId(R.id.tvTodo)).perform(closeSoftKeyboard());
         onView(withId(R.id.etTodo)).check(matches(isDisplayed()));
         onView(withId(R.id.fab)).check(matches(isDisplayed()));
     }
